@@ -17,7 +17,19 @@ h1 {
   border-radius: 2px;
   text-decoration: none;
 }
-
 .nav .featured {
   background-color: orange;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
 }
