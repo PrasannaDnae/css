@@ -43,8 +43,22 @@ a:active {
   padding: 15px 0;
   text-align: center;
   font-size: 14px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 .footer a {
   color: initial;
   text-decoration: underline;
+}
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgrey;
+}
+.box-small {
+  font-size: 12px;
+}
+.box-large {
+  font-size: 18px;
 }
