@@ -68,3 +68,6 @@ a:active {
   padding: 1.2em;
   background-color: #ccc;
 }
+ul {
+  font-size: 0.8em;
+}
