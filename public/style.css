@@ -71,3 +71,6 @@ a:active {
 ul {
   font-size: 0.8em;
 }
+ul ul {
+  font-size: 1em;
+}
