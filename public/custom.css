@@ -4,5 +4,5 @@
 }
 p {
   font-family: var(--main-font);
-  color: var(--brand-color);
+  color: var(--secondary-color, blue);
 }
