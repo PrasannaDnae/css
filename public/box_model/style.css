@@ -32,5 +32,6 @@ main {
   background-color: #fff;
   border-radius: 0.5em;
   float: right;
-  width: 30%;
+  width: 29%;
+  margin-left: 1%;
 }
