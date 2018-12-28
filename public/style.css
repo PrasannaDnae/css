@@ -1,5 +1,7 @@
 :root {
   font-size: calc(0.5em + 1vw);
+  --main-bg: #fff;
+  --main-color: #000;
 }
 body {
   font-family: sans-serif;
@@ -80,6 +82,8 @@ ul {
   padding: 1em;
   border-radius: 0.5em;
   border: 1px solid #999;
+  background-color: var(--main-bg);
+  color: var(--main-color);
 }
 .panel > h2 {
   margin-top: 0;
@@ -97,4 +101,10 @@ ul {
 }
 .about-us {
   font-size: 2em;
+}
+.dark {
+  margin-top: 2em;
+  padding: 1em;
+  --main-bg: #333;
+  --main-color: #fff;
 }
