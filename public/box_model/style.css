@@ -1,7 +1,13 @@
+:root {
+  box-sizing: border-box;
+}
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+.third-party-component {
+  box-sizing: content-box;
 }
 body {
   background-color: #eee;
