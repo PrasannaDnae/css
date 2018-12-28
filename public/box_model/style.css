@@ -13,9 +13,13 @@ main {
 .main {
   background-color: #fff;
   border-radius: 0.5em;
+  float: left;
+  width: 70%;
 }
 .sidebar {
   padding: 1.5em;
   background-color: #fff;
   border-radius: 0.5em;
+  float: left;
+  width: 30%;
 }
