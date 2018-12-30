@@ -37,6 +37,15 @@ header {
   border-radius: 0.5em;
   margin: 0 1.5em 1.5em 0;
 }
+.media-image {
+  float: left;
+}
+.media-body {
+  margin-top: 0;
+}
+.media-body h4 {
+  margin-top: 0;
+}
 .clearfix::before,
 .clearfix::after {
   display: table;
