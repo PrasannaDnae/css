@@ -17,6 +17,7 @@ header {
   color: #fff;
   background-color: #0072b0;
   border-radius: 0.5em;
+  padding: 1em 1.5em;
 }
 main {
   display: block;
@@ -37,4 +38,22 @@ main {
   border-radius: 0.5em;
   width: 30%;
   margin-left: 1.5em;
+}
+.button-link {
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  background-color: #0090c9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button-link + .button-link {
+  margin-top: 1.5em;
+}
+.sponsor-link {
+  display: block;
+  color: #0072b0;
+  font-weight: bold;
+  text-decoration: none;
 }
